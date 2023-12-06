@@ -1,0 +1,51 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <style>
+
+  </style>
+  <title>PrimeFlex Navbar</title>
+  <link rel="stylesheet" href="https://unpkg.com/primeflex@latest/primeflex.css">
+</head>
+<body>
+  <div class="flex flex-wrap xl:column-gap-0 row-gap-0">
+    <div class="w-full h-4rem bg-gray-900 font-bold flex align-items-left justify-content-left pl-3">
+      <h1>Digital<span>Khata</span></h1>
+    </div>
+    <div class="h-screen  w-15rem bg-gray-900 font-bold p-3 flex align-items-left justify-content-top">
+      <div class="allproduct">
+        <a routerLink="Category" ><span class=" pi pi-briefcase" ></span>&nbsp;&nbsp;Category</a><br><br>
+        <a routerLink="" ><span class="pi pi-user"  ></span>&nbsp;&nbsp;Customers</a><br><br>
+        <a routerLink="Sales" ><span class=" pi pi-chart-line"  ></span>&nbsp;&nbsp;Sales</a><br><br>
+        <a routerLink="Product" ><span class=" pi pi-angle-right"  ></span>&nbsp;Products</a><br><br>
+      </div>
+    </div>
+    <div class="p-col-9">
+      <div class="main-content">
+          <h2>Main Content</h2>
+          <router-outlet></router-outlet>
+      </div>
+  </div>
+    
+</div>
+ </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+ 

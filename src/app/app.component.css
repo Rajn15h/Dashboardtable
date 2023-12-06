@@ -1,0 +1,23 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  h1{
+    color:lightblue;
+    text-align: left;
+    
+    }
+    span{
+    color:lightgray;
+    text-align: left;
+    
+    }
+    .main-content {
+        padding: 20px;
+    }
+    .allproduct a {
+        text-decoration: none;
+        color: aliceblue;
+
+    }
